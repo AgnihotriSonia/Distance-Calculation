@@ -32,11 +32,9 @@ def getDistances(count,src,destinations):
     # Base parameters
     baseUrl = 'https://matrix.route.api.here.com/routing/7.2/calculatematrix.json?'
     # free key
-    key = r'5z5TH8XZOtHmTLaMlvin'
-    code ='Asf90pmn1TbnPkdeyx6utg'
-    # key =  r'oIy9HgMunktdUAk6EUl6'
-    # code = 'kRVZGFP5OpLvreTXhw_Xhg'
-    add_param = 'fastest;car;traffic:disabled'
+    key = r'your key'
+    code ='your code'
+       add_param = 'fastest;car;traffic:disabled'
     dist_param='distance'   
     # make the URL
     url = baseUrl + "app_id ={0}&app_code={1}&start0={2},{3}".format(key,code,src[0],src[1])
